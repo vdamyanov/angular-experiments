@@ -1,0 +1,15 @@
+<input type="text" ng-model="query">
+<!-- <ul>
+  <li ng-repeat="item in items | filter:query" ng-click="save()">
+    <div>{{item.name}}</div>
+    <div>{{item.date | date:"MM/dd/yyyy 'at' h:mma"}}</div>
+    <div>{{itemString()}}</div>
+  </li>
+</ul> -->
+<table>
+  <tr ng-repeat="item in items | filter:query" ng-click="save()">
+    <td>{{item.name}}</td>
+    <td>{{item.date | date:"MM/dd/yyyy 'at' h:mma"}}</td>
+    <td>{{itemString()}}</td>
+  </tr>
+</table>

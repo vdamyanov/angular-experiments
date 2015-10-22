@@ -1,0 +1,83 @@
+.doughnut-container
+  $doughnut_dimension = 100px
+  $podium_modifier = 0.75
+  $hollow = #f2f2f2
+  $main_color = #A6DAA6
+
+  position: relative
+  border-radius: $doughnut_dimension
+  background: $hollow
+
+  &, .progress, &::after
+    width: $doughnut_dimension
+    height: $doughnut_dimension
+
+  .progress, &::after
+    background-color: $main_color
+    position: absolute
+    border-radius: $doughnut_dimension
+
+  &::before //cover
+    content: ""
+    display: block
+    position: absolute
+    z-index: 1
+    background: #fff
+    width: ($doughnut_dimension / 2)
+    height: $doughnut_dimension
+    background: $hollow
+    border-top-left-radius: $doughnut_dimension
+    border-bottom-left-radius: $doughnut_dimension
+
+  .podium
+    width: $doughnut_dimension * $podium_modifier
+    height: $doughnut_dimension * $podium_modifier
+    top: ($doughnut_dimension * (1 - $podium_modifier) / 2)
+    left: ($doughnut_dimension * (1 - $podium_modifier) / 2)
+    border-radius: $doughnut_dimension * $podium_modifier
+    background: #fff
+    box-shadow: 0 0 2px #ccc
+    z-index: 3
+    position: relative
+    text-align: center
+
+    .value
+      position: relative
+      top: 50%
+      -webkit-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      transform: translateY(-50%)
+
+  .progress //first half
+    clip: rect(0px, $doughnut_dimension / 2, $doughnut_dimension, 0px)
+
+  &::after //second half
+    display: none
+    top: 0
+    content: ""
+
+  &[percentage^="5"],
+  &[percentage^="6"],
+  &[percentage^="7"],
+  &[percentage^="8"],
+  &[percentage^="9"],
+  &[percentage="100"]
+    .progress
+      z-index: 2
+    &::after
+      display: block
+
+  &[percentage^="5."],
+  &[percentage^="6."],
+  &[percentage^="7."],
+  &[percentage^="8."],
+  &[percentage^="9."],
+  &[percentage="5"],
+  &[percentage="6"],
+  &[percentage="7"],
+  &[percentage="8"],
+  &[percentage="9"]
+    .progress
+      z-index: 0
+    &::after
+      display: none

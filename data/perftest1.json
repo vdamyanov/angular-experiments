@@ -1,0 +1,716 @@
+[
+   {
+      "name":"function (){var t=r.url(),e=l.$$replace;return d&amp;&amp;t==l.absUrl()||(d++,i.$evalAsync(function(){i.$broadcast(\"$locationChangeStart\",l.absUrl(),t).defaultPrevented?l.$$parse(t):(r.url(l.absUrl(),e),a(t))})),l.$$replace=!1,d}",
+      "time":0.810000346973538,
+      "percent":"0.110",
+      "$$hashKey":"99GD"
+   },
+   {
+      "name":"function (){return n.hash()}",
+      "time":0.110000022687018,
+      "percent":"0.0149",
+      "$$hashKey":"99L3"
+   },
+   {
+      "name":"title",
+      "time":0.271999859251082,
+      "percent":"0.0368",
+      "$$hashKey":"99I5"
+   },
+   {
+      "name":"n",
+      "time":108.72500424739,
+      "percent":"14.7",
+      "$$hashKey":"99EL"
+   },
+   {
+      "name":"function (){return n}",
+      "time":0.113000045530498,
+      "percent":"0.0153",
+      "$$hashKey":"99L1"
+   },
+   {
+      "name":"s",
+      "time":0.182999880053103,
+      "percent":"0.0248",
+      "$$hashKey":"99IX"
+   },
+   {
+      "name":"{{ title }}",
+      "time":0.503000221215189,
+      "percent":"0.0681",
+      "$$hashKey":"99H1"
+   },
+   {
+      "name":"{in: helpVisible}",
+      "time":0.244999886490405,
+      "percent":"0.0332",
+      "$$hashKey":"99IF"
+   },
+   {
+      "name":"{enabled: loading}",
+      "time":0.547999865375459,
+      "percent":"0.0742",
+      "$$hashKey":"99GX"
+   },
+   {
+      "name":"{{ hotkey.description }}",
+      "time":0.473999534733593,
+      "percent":"0.0642",
+      "$$hashKey":"99H9"
+   },
+   {
+      "name":"{{ key }}",
+      "time":0.228999997489154,
+      "percent":"0.0310",
+      "$$hashKey":"99IH"
+   },
+   {
+      "name":"you.tmp",
+      "time":0.181000214070082,
+      "percent":"0.0245",
+      "$$hashKey":"99IZ"
+   },
+   {
+      "name":"function (){var e=parseFloat(i.$eval(a));return isNaN(e)?\"\":(e in c||(e=t.pluralCat(e-u)),h[e](i,r,!0))}",
+      "time":3.24199965689331,
+      "percent":"0.439",
+      "$$hashKey":"99FD"
+   },
+   {
+      "name":"function (){var e=u(t);if(g.$modelValue!==e){var n=g.$formatters,i=n.length;for(g.$modelValue=e;i--;)e=n[i](e);g.$viewValue!==e&amp;&amp;(g.$viewValue=e,g.$render())}return e}",
+      "time":0.970999710261822,
+      "percent":"0.131",
+      "$$hashKey":"99G7"
+   },
+   {
+      "name":"{{collaborator.user.name}} | {{collaborator.user.email}}",
+      "time":0.744000193662942,
+      "percent":"0.101",
+      "$$hashKey":"99GF"
+   },
+   {
+      "name":"{\n            'border-color': collaborator.color,\n            'background-image': 'url(' + collaborator.avatar_url + ')'\n          }",
+      "time":6.95100007578731,
+      "percent":"0.941",
+      "$$hashKey":"99F1"
+   },
+   {
+      "name":"{{ (week.week | weekDistance:current_week) ? (week.week | weekNumberToString:week.year) : '' }}",
+      "time":64.5839999197051,
+      "percent":"8.74",
+      "$$hashKey":"99ET"
+   },
+   {
+      "name":"{{ (week.week | weekDistance:current_week)\n                || (week.week | weekNumberToString:week.year) }}",
+      "time":77.0749999210239,
+      "percent":"10.4",
+      "$$hashKey":"99ER"
+   },
+   {
+      "name":"{\n              'faded': isInThePast(week),\n              'text-primary': week.week == current_week\n            }",
+      "time":6.15000037942082,
+      "percent":"0.833",
+      "$$hashKey":"99F5"
+   },
+   {
+      "name":"{'background-color': department.color}",
+      "time":2.02099978923798,
+      "percent":"0.274",
+      "$$hashKey":"99FL"
+   },
+   {
+      "name":"department.users.length",
+      "time":0.561000080779195,
+      "percent":"0.0759",
+      "$$hashKey":"99GV"
+   },
+   {
+      "name":"tableSortOptions",
+      "time":0.205999822355807,
+      "percent":"0.0279",
+      "$$hashKey":"99IN"
+   },
+   {
+      "name":"{first: $index === 0}",
+      "time":1.54900038614869,
+      "percent":"0.210",
+      "$$hashKey":"99FX"
+   },
+   {
+      "name":"{ 'box-shadow': '-5px 0 0 {{user.primaryTag.color}} inset' }",
+      "time":5.7349968701601,
+      "percent":"0.776",
+      "$$hashKey":"99F7"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url({{user.avatar_url}})' }",
+      "time":4.65700123459101,
+      "percent":"0.630",
+      "$$hashKey":"99F9"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/2b94109d2599744a6fd3892c2ab33bec?s=80&amp;d=monsterid)' }",
+      "time":0.175999943166971,
+      "percent":"0.0238",
+      "$$hashKey":"99J1"
+   },
+   {
+      "name":"{{user.name}}",
+      "time":2.8589996509254,
+      "percent":"0.387",
+      "$$hashKey":"99FH"
+   },
+   {
+      "name":"{ 'box-shadow': '-5px 0 0 #7DA8E8 inset' }",
+      "time":2.36000004224479,
+      "percent":"0.319",
+      "$$hashKey":"99FJ"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/af54088b96c578fd49635b0ef2a320eb?s=80&amp;d=monsterid)' }",
+      "time":0.491999671794474,
+      "percent":"0.0666",
+      "$$hashKey":"99H7"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/799957a0ee0290eab727ac6bfb66927c?s=80&amp;d=monsterid)' }",
+      "time":0.361000071279705,
+      "percent":"0.0489",
+      "$$hashKey":"99HH"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/699b7232844841ee46938c20254d2895?s=80&amp;d=monsterid)' }",
+      "time":0.631999922916293,
+      "percent":"0.0856",
+      "$$hashKey":"99GP"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/cba8455190e1a83a51f916d76729cdb8?s=80&amp;d=monsterid)' }",
+      "time":0.266999821178615,
+      "percent":"0.0361",
+      "$$hashKey":"99I9"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/f3d55fa2c014c61e40629857323d0e7d?s=80&amp;d=monsterid)' }",
+      "time":0.27099996805191,
+      "percent":"0.0367",
+      "$$hashKey":"99I7"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/496f6563a22f2c86ece028cdb8bdee55?s=80&amp;d=monsterid)' }",
+      "time":0.918000005185604,
+      "percent":"0.124",
+      "$$hashKey":"99G9"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/9c35f059724a1e76b7aba376e48eca7a?s=80&amp;d=monsterid)' }",
+      "time":0.285999849438667,
+      "percent":"0.0387",
+      "$$hashKey":"99I3"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/aa84c4d0751f3ec81934598247d664ff?s=80&amp;d=monsterid)' }",
+      "time":94.6210001129657,
+      "percent":"12.8",
+      "$$hashKey":"99EN"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/c5852d506149886c8e1829005b958337?s=80&amp;d=monsterid)' }",
+      "time":0.448000035248697,
+      "percent":"0.0606",
+      "$$hashKey":"99HB"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/b03dbc0006e5fe9308a8975dc64e5119?s=80&amp;d=monsterid)' }",
+      "time":0.317999860271812,
+      "percent":"0.0430",
+      "$$hashKey":"99HN"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/a0e67911b58c586fc073458ac6cd4ad9?s=80&amp;d=monsterid)' }",
+      "time":0.134999863803387,
+      "percent":"0.0183",
+      "$$hashKey":"99JZ"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/c16709cb7237ca65842afef5c0ad4847?s=80&amp;d=monsterid)' }",
+      "time":0.149999978020787,
+      "percent":"0.0203",
+      "$$hashKey":"99JP"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/ebea4f0797e191de513c5e4b1ff36176?s=80&amp;d=monsterid)' }",
+      "time":0.576999736949801,
+      "percent":"0.0781",
+      "$$hashKey":"99GT"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/32f7a04adf5c071209edca6b1f6d190c?s=80&amp;d=monsterid)' }",
+      "time":0.151999993249774,
+      "percent":"0.0206",
+      "$$hashKey":"99JL"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/cba6f7aadbf994c7eeb9b83728045769?s=80&amp;d=monsterid)' }",
+      "time":0.119000091217458,
+      "percent":"0.0161",
+      "$$hashKey":"99KZ"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/50510f14a9a1f9e75e2b8dae9380a943?s=80&amp;d=monsterid)' }",
+      "time":0.155000132508576,
+      "percent":"0.0210",
+      "$$hashKey":"99JH"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/288b049fcaa7c36bf975d2d97b791cdd?s=80&amp;d=monsterid)' }",
+      "time":0.370000139810145,
+      "percent":"0.0501",
+      "$$hashKey":"99HF"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/d426a33219225552f53e7760f33e65be?s=80&amp;d=monsterid)' }",
+      "time":0.122999772429466,
+      "percent":"0.0167",
+      "$$hashKey":"99KX"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/428c21038f2efc21ae7bd13f4dda7c80?s=80&amp;d=monsterid)' }",
+      "time":0.143000041134655,
+      "percent":"0.0194",
+      "$$hashKey":"99JX"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/3b27d9f625474230026e0b716277d4bc?s=80&amp;d=monsterid)' }",
+      "time":0.309000024572015,
+      "percent":"0.0418",
+      "$$hashKey":"99HP"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/bbf1cfa68810d2df8f90f7cee0871d18?s=80&amp;d=monsterid)' }",
+      "time":0.741999829187989,
+      "percent":"0.100",
+      "$$hashKey":"99GH"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/4ec2af6aed8ec14932a98bc82cd286d9?s=80&amp;d=monsterid)' }",
+      "time":0.12600002810359,
+      "percent":"0.0171",
+      "$$hashKey":"99KN"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/83205aeb0a1f3e832a24298ea47655dc?s=80&amp;d=monsterid)' }",
+      "time":0.125000020489097,
+      "percent":"0.0169",
+      "$$hashKey":"99KP"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/22834f28e2341532f356b4d6acf70bfd?s=80&amp;d=monsterid)' }",
+      "time":0.124000245705247,
+      "percent":"0.0168",
+      "$$hashKey":"99KV"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/b63a44a628d05190093ac06db5a56846?s=80&amp;d=monsterid)' }",
+      "time":0.143999815918505,
+      "percent":"0.0195",
+      "$$hashKey":"99JV"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/28fca3448a5752a30f935ad2fdeeabe4?s=80&amp;d=monsterid)' }",
+      "time":0.31999999191612,
+      "percent":"0.0433",
+      "$$hashKey":"99HL"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/2a0dd3e4f879dee10d88d44e3fe6e29c?s=80&amp;d=monsterid)' }",
+      "time":0.14499993994832,
+      "percent":"0.0196",
+      "$$hashKey":"99JT"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/6c353c22051e2bed34bd5dc6939bf408?s=80&amp;d=monsterid)' }",
+      "time":0.164000084623694,
+      "percent":"0.0222",
+      "$$hashKey":"99J9"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/f3cdaa4c3b9f35c270db3dd338eadbf5?s=80&amp;d=monsterid)' }",
+      "time":0.173000036738813,
+      "percent":"0.0234",
+      "$$hashKey":"99J3"
+   },
+   {
+      "name":"(week == you.cell &amp;&amp; you.editing == true &amp;&amp; !isInThePast(week))",
+      "time":24.2999974871054,
+      "percent":"3.29",
+      "$$hashKey":"99EZ"
+   },
+   {
+      "name":"{{freeProjectDays()}}",
+      "time":81.6060025244951,
+      "percent":"11.0",
+      "$$hashKey":"99EP"
+   },
+   {
+      "name":"!isInThePast(week) &amp;&amp;\n                              (shouldShowWeekAvailability()\n                               || (week == you.cell &amp;&amp; you.editing == true))",
+      "time":58.4129978669807,
+      "percent":"7.91",
+      "$$hashKey":"99EV"
+   },
+   {
+      "name":"highlight()",
+      "time":25.7850006455556,
+      "percent":"3.49",
+      "$$hashKey":"99EX"
+   },
+   {
+      "name":"{\n                  success: freeProjectDays() &gt; 0,\n                  'highlighted': week == you.cell,\n                  'over': isOverbooked(),\n                }",
+      "time":113.857996184379,
+      "percent":"15.4",
+      "$$hashKey":"99EJ"
+   },
+   {
+      "name":"{{activity.name | projectNameFormat:'code'}}",
+      "time":1.94999878294766,
+      "percent":"0.264",
+      "$$hashKey":"99FN"
+   },
+   {
+      "name":"del",
+      "time":1.67200015857816,
+      "percent":"0.226",
+      "$$hashKey":"99FT"
+   },
+   {
+      "name":"{{activity.name | projectNameFormat:'name'}}",
+      "time":3.08900012169033,
+      "percent":"0.418",
+      "$$hashKey":"99FF"
+   },
+   {
+      "name":"{{ isPending(activity) ? activity.requestedDays : activity.approvedDays }}",
+      "time":3.74799955170602,
+      "percent":"0.507",
+      "$$hashKey":"99FB"
+   },
+   {
+      "name":"{background: week.collab_color}",
+      "time":1.55900069512427,
+      "percent":"0.211",
+      "$$hashKey":"99FV"
+   },
+   {
+      "name":"week == you.cell &amp;&amp; !isPending(activity)",
+      "time":1.23999896459281,
+      "percent":"0.168",
+      "$$hashKey":"99G1"
+   },
+   {
+      "name":"isPending(activity)",
+      "time":1.70200143475086,
+      "percent":"0.230",
+      "$$hashKey":"99FR"
+   },
+   {
+      "name":"{\n                    'delete': del,\n                    'selected': you.cell.selected == activity,\n                    'faded': isInThePast(week),\n                    'pending': isPending(activity)\n                  }",
+      "time":6.87899847980589,
+      "percent":"0.931",
+      "$$hashKey":"99F3"
+   },
+   {
+      "name":"{color: week.collab_color}",
+      "time":1.46300042979419,
+      "percent":"0.198",
+      "$$hashKey":"99FZ"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/1f363773ae74ffaebccbc0c080d08ad0?s=80&amp;d=monsterid)' }",
+      "time":0.147999962791801,
+      "percent":"0.0200",
+      "$$hashKey":"99JR"
+   },
+   {
+      "name":"{ 'box-shadow': '-5px 0 0 #FFCF83 inset' }",
+      "time":0.515999970957637,
+      "percent":"0.0699",
+      "$$hashKey":"99GZ"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/fcf09597c2bd5006b900d85a3eb7d335?s=80&amp;d=monsterid)' }",
+      "time":0.903000007383525,
+      "percent":"0.122",
+      "$$hashKey":"99GB"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/fcca9dab5224ef0a153ab6f17da08d0e?s=80&amp;d=monsterid)' }",
+      "time":0.254999962635338,
+      "percent":"0.0345",
+      "$$hashKey":"99IB"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/8b51167036bb4e172035233d4cc59784?s=80&amp;d=monsterid)' }",
+      "time":0.129000167362392,
+      "percent":"0.0175",
+      "$$hashKey":"99KB"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/0aa920ab413f29857c2f149844761289?s=80&amp;d=monsterid)' }",
+      "time":0.64099975861609,
+      "percent":"0.0868",
+      "$$hashKey":"99GN"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/909a89331f0eac6ed6842b3daa84064f?s=80&amp;d=monsterid)' }",
+      "time":0.299999956041575,
+      "percent":"0.0406",
+      "$$hashKey":"99HT"
+   },
+   {
+      "name":"{ 'box-shadow': '-5px 0 0 #57C4B9 inset' }",
+      "time":0.286999857053161,
+      "percent":"0.0389",
+      "$$hashKey":"99I1"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/ec4a14ad2e509b0886f93304e0865b0b?s=80&amp;d=monsterid)' }",
+      "time":0.712999957613647,
+      "percent":"0.0965",
+      "$$hashKey":"99GL"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/540190f08854dd3e452ac3b09de49549?s=80&amp;d=monsterid)' }",
+      "time":0.125000020489097,
+      "percent":"0.0169",
+      "$$hashKey":"99KR"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/33e8141cb7bc4f48ac729a2544af4b56?s=80&amp;d=monsterid)' }",
+      "time":0.185000128112733,
+      "percent":"0.0250",
+      "$$hashKey":"99IV"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/3a591a2034243061bb527c2c0bc7131f?s=80&amp;d=monsterid)' }",
+      "time":0.348000088706613,
+      "percent":"0.0471",
+      "$$hashKey":"99HJ"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/43ac426b43342026560333e9f8f4f6f7?s=80&amp;d=monsterid)' }",
+      "time":0.617000157944858,
+      "percent":"0.0835",
+      "$$hashKey":"99GR"
+   },
+   {
+      "name":"{ 'box-shadow': '-5px 0 0  inset' }",
+      "time":1.78900011815131,
+      "percent":"0.242",
+      "$$hashKey":"99FP"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/2a5b022c33dda91b4ea6fc9d08ce84e2?s=80&amp;d=monsterid)' }",
+      "time":0.130999833345413,
+      "percent":"0.0177",
+      "$$hashKey":"99K7"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/be3f5e60bccdb33626661e3d818de5d7?s=80&amp;d=monsterid)' }",
+      "time":0.250999815762043,
+      "percent":"0.0340",
+      "$$hashKey":"99ID"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/71a333b000ffb9b6d56d2fdc89b44c52?s=80&amp;d=monsterid)' }",
+      "time":0.157000147737563,
+      "percent":"0.0213",
+      "$$hashKey":"99JF"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/5844899f6046b032445e9259f3529674?s=80&amp;d=monsterid)' }",
+      "time":0.189999933354557,
+      "percent":"0.0257",
+      "$$hashKey":"99IT"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/9e143a0956560a336639f9890a5f7257?s=80&amp;d=monsterid)' }",
+      "time":0.132999964989722,
+      "percent":"0.0180",
+      "$$hashKey":"99K3"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/d757d53538ea9c7c1b6c95a72e8f49b9?s=80&amp;d=monsterid)' }",
+      "time":0.124999904073775,
+      "percent":"0.0169",
+      "$$hashKey":"99KT"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/00b3c51df38daa8dcd56c082846f5d0b?s=80&amp;d=monsterid)' }",
+      "time":0.299000064842403,
+      "percent":"0.0405",
+      "$$hashKey":"99HV"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/41d599834559f79f16278356e0bf6c01?s=80&amp;d=monsterid)' }",
+      "time":0.164999975822866,
+      "percent":"0.0223",
+      "$$hashKey":"99J7"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/474c1f621e54efda90d20591bb4b8ec9?s=80&amp;d=monsterid)' }",
+      "time":0.210999976843596,
+      "percent":"0.0286",
+      "$$hashKey":"99IL"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/1c56933b22b88677a2b4c89a3410d0e1?s=80&amp;d=monsterid)' }",
+      "time":0.222999835386872,
+      "percent":"0.0302",
+      "$$hashKey":"99IJ"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/eb13bbc8afa773f05a7810c3599d8bcc?s=80&amp;d=monsterid)' }",
+      "time":0.160000170581043,
+      "percent":"0.0217",
+      "$$hashKey":"99JD"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/b6b7c9f4b27f06c8bf990d253c4030d6?s=80&amp;d=monsterid)' }",
+      "time":0.153000000864267,
+      "percent":"0.0207",
+      "$$hashKey":"99JJ"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/5458f91201ee4c69b539224a5dfb7753?s=80&amp;d=monsterid)' }",
+      "time":0.166999991051853,
+      "percent":"0.0226",
+      "$$hashKey":"99J5"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/813f52bbbca5f8df04e566371c6cab22?s=80&amp;d=monsterid)' }",
+      "time":0.289999879896641,
+      "percent":"0.0393",
+      "$$hashKey":"99HZ"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/c4e3bf8bc20abb3696bbcbe5eb248ccb?s=80&amp;d=monsterid)' }",
+      "time":0.127000035718083,
+      "percent":"0.0172",
+      "$$hashKey":"99KH"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/9e410aaf938c26f01ac43d2ccee81773?s=80&amp;d=monsterid)' }",
+      "time":0.134000089019537,
+      "percent":"0.0181",
+      "$$hashKey":"99K1"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/ec6cc2eb657855bcef7757e703a3e94f?s=80&amp;d=monsterid)' }",
+      "time":0.192999956198037,
+      "percent":"0.0261",
+      "$$hashKey":"99IR"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/d16fd8fdd5af672ff64041f3558a076c?s=80&amp;d=monsterid)' }",
+      "time":0.496999826282263,
+      "percent":"0.0673",
+      "$$hashKey":"99H5"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/c51418a892ef574580fa8a54d03a60c3?s=80&amp;d=monsterid)' }",
+      "time":0.298000173643231,
+      "percent":"0.0403",
+      "$$hashKey":"99HX"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/55be39a096897af506a0ab47eb35487d?s=80&amp;d=monsterid)' }",
+      "time":0.13200007379055,
+      "percent":"0.0179",
+      "$$hashKey":"99K5"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/0d54c3079ab8904e08127fed4ba121a0?s=80&amp;d=monsterid)' }",
+      "time":0.127999926917255,
+      "percent":"0.0173",
+      "$$hashKey":"99KD"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/0196a092cda3e37cd4146e6643303330?s=80&amp;d=monsterid)' }",
+      "time":0.193000072613359,
+      "percent":"0.0261",
+      "$$hashKey":"99IP"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/330acc70c26db5d2584a53a7f8009adc?s=80&amp;d=monsterid)' }",
+      "time":0.500999856740236,
+      "percent":"0.0678",
+      "$$hashKey":"99H3"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/b16da3af8f22c51b533ad820493d3670?s=80&amp;d=monsterid)' }",
+      "time":0.126999919302762,
+      "percent":"0.0172",
+      "$$hashKey":"99KJ"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/29695d3522de233de9ed570bf5e0bb38?s=80&amp;d=monsterid)' }",
+      "time":0.126999919302762,
+      "percent":"0.0172",
+      "$$hashKey":"99KL"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/9636125707e1548917febd4bb27adb28?s=80&amp;d=monsterid)' }",
+      "time":0.127000035718083,
+      "percent":"0.0172",
+      "$$hashKey":"99KF"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/909eb87dc761f1566f6cdae6d7eb7329?s=80&amp;d=monsterid)' }",
+      "time":0.30400010291487,
+      "percent":"0.0412",
+      "$$hashKey":"99HR"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/09e530180e5405f44364273389db824b?s=80&amp;d=monsterid)' }",
+      "time":0.12999982573092,
+      "percent":"0.0176",
+      "$$hashKey":"99K9"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/906415cc60e0c405c921a398af3da436?s=80&amp;d=monsterid)' }",
+      "time":0.164000084623694,
+      "percent":"0.0222",
+      "$$hashKey":"99JB"
+   },
+   {
+      "name":"{ 'border-color': user.primaryTag.color, 'background-image': 'url(https://www.gravatar.com/avatar/7da937a11124771ca2e429781d18387f?s=80&amp;d=monsterid)' }",
+      "time":0.151000102050602,
+      "percent":"0.0204",
+      "$$hashKey":"99JN"
+   },
+   {
+      "name":"{{project.name | projectNameFormat:'code'}}",
+      "time":1.01300003007054,
+      "percent":"0.137",
+      "$$hashKey":"99G5"
+   },
+   {
+      "name":"{{del || project.name | projectNameFormat:'name'}}",
+      "time":0.730999745428562,
+      "percent":"0.0990",
+      "$$hashKey":"99GJ"
+   },
+   {
+      "name":"{{project.requestedDays}}",
+      "time":0.372000155039132,
+      "percent":"0.0504",
+      "$$hashKey":"99HD"
+   },
+   {
+      "name":"{faded: isInThePast(week)}",
+      "time":1.22099940199405,
+      "percent":"0.165",
+      "$$hashKey":"99G3"
+   }
+]

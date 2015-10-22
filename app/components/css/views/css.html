@@ -1,0 +1,16 @@
+<div style="float:left; margin-left:50px;" ng-repeat="data in doughnuts">
+  <div class="doughnut-container" percentage="{{data}}">
+    <div class="progress" style="transform: rotate({{data*3.6}}deg)"></div>
+    <div class="podium"><div class="value">{{data}}%</div></div>
+  </div>
+  <br>
+</div>
+
+<div style="float:left; margin-left:100px;">
+  <div class="doughnut-container" percentage="{{percentage}}">
+    <div class="progress" style="transform: rotate({{percentage*3.6}}deg)"></div>
+    <div class="podium"><div class="value">{{percentage | number:1}}%</div></div>
+  </div>
+  <br>
+  <input type="number" ng-model="percentage">
+</div>

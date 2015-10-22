@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular Test</title>
+  <link rel="stylesheet" type="text/css" href="public/assets/css/application.css">
+</head>
+<body>
+  <nav ng-controller="NavCtrl">
+    <ul>
+      <li ng-repeat="nav in topNav">
+        <a ui-sref="{{nav.state}}">{{nav.name}}</a>
+      </li>
+    </ul>
+  </nav>
+  <ui-view></ui-view>
+  <script type="text/javascript" src="public/assets/js/vendor.js"></script>
+  <script type="text/javascript" src="public/assets/js/application.js"></script>
+</body>
+</html>

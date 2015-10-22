@@ -1,0 +1,25 @@
+{
+  "name": "angular-test",
+  "version": "0.0.0",
+  "authors": [
+    "Vasil Damyanov <vasil_damyanov@yahoo.com>"
+  ],
+  "description": "testing stuff",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3",
+    "angular-ui-router": "~0.2.11",
+    "d3": "~3.4.11"
+  }
+}
