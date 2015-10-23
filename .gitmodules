@@ -1,0 +1,3 @@
+[submodule "static_server"]
+	path = static_server
+	url = git@gist.github.com:d6f51443cac51f2a7d4a.git
