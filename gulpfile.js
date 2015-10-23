@@ -1,9 +1,9 @@
-var gulp = require('gulp'),
-    requireDir = require('require-dir'),
-    dir = requireDir('./tasks'),
-    paths = require('./tasks/paths'),
-    rimraf = require('rimraf'),
-    nodemon = require('gulp-nodemon');
+var gulp = require('gulp');
+var requireDir = require('require-dir');
+var del = require('del');
+var nodemon = require('gulp-nodemon');
+var dir = requireDir('./tasks');
+var paths = require('./tasks/paths');
 
 var bowerDependencies = require('./tasks/dependencies.js');
 
@@ -22,7 +22,7 @@ gulp.task('clean', function (cb) {
   //  Don't clean when watching files.
   if (watching) return cb();
 
-  return rimraf('public/assets', cb);
+  return del('public/assets', cb);
 });
 
 gulp.task('nodemon', function () {
