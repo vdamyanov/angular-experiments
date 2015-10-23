@@ -27,8 +27,8 @@ gulp.task('clean', function (cb) {
 
 gulp.task('nodemon', function () {
   nodemon({
-    script: 'server.js',
-    watch: 'server.js',
+    script: './static_server/static_server.js',
+    watch: './static_server/static_server.js',
     ext: 'js'
   })
   .on('restart', function () {
