@@ -2,6 +2,9 @@
 
 ```
 npm install && node_modules/bower/bin/bower install
+cd static_server/
+git submodule init
+git submodule update
 ```
 
 # Run
