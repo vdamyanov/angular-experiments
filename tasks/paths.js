@@ -1,9 +1,9 @@
 module.exports = {
   scripts: ['app/**/*.js'],
   styles: {
-    paths: ['css/**/*.styl'],
-    source: 'css/application.styl'
+    paths: ['styles/**/*.styl'],
+    source: 'styles/application.styl'
   },
   html: ['app/**/views/*.html'],
-  fonts: ['css/fonts/*']
+  fonts: ['styles/fonts/*']
 };
