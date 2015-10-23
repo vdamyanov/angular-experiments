@@ -22,5 +22,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node_modules/gulp/bin/gulp.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdamyanov/angular-experiments.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/vdamyanov/angular-experiments/issues"
+  },
+  "homepage": "https://github.com/vdamyanov/angular-experiments#readme"
 }
